@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+
+int main(int argc, char const *argv[])
+{
+	
+	int jam, tarif;
+	cout<<"===SELAMAT DATANG DI STUDIO MUSIK==="<<endl;
+	cout<<"Masukan jam pinjam anda\t";
+	cin>>jam;
+	tarif = jam * 100000 - (100000 * 50 / 100 * (jam - 1));
+	cout<<"Tarif sewa anda adalah:\t"<<tarif<<endl;;
+	return 0;
+}
